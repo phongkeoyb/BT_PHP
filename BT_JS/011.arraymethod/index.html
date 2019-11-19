@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p id="target"> Nội dung ban đầu </p>
+    <button onclick="changeText()"> To String array </button>
+    <button onclick="changeTextJont()"> Jont array </button>
+    <script type="text/javascript">
+        function changeText() {
+            var students = ["Nguyen van A","Nguyen Van B", "Tran Thi C"];
+            document.getElementById("target").innerText = students.toString();
+        }
+        function changeTextJont() {
+            var students = ["Nguyen van A","Nguyen Van B", "Tran Thi C"];
+            document.getElementById("target").innerText = students.join(" @ ");
+        }
+
+    </script>
+</body>
+</html>

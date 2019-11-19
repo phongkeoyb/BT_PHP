@@ -1,0 +1,1 @@
+alert("Tạo thành công javascrip file js!!");
